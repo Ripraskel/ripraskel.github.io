@@ -1,1 +1,0 @@
-# ripraskel.github.io
