@@ -1,0 +1,58 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family:  'Montserret', sans-serif;
+
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: orange;
+}
+
+.faded {
+	color: rgba(255,255,255,0.8)
+}
+
+div.startup {
+	background-position: center;
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+	height: 100%;
+}
+
+div.startup hr {
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+div.startup h1 {
+	font-size: 2rem;
+}
+
+.btn {
+	border-radius: 300px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Montserret', sans-serif;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	background-color: orange;
+	border-color: orange;
+}
+
+.btn-primary:hover {
+	background-color: red;
+	border-color: red;
+	border-width: 5px;
+ 	cursor: pointer;
+}
