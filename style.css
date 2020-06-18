@@ -3,7 +3,8 @@ body {
 }
 
 .zone {
-	cursor:pointer;
+	border-radius: 4px;
+	transition: all 0.3s linear;
 }
 
 .sticky {
@@ -14,6 +15,14 @@ body {
 
 .push {
 	margin-left: auto;
+}
+
+.coolStyle {
+	font-size: 1.7em;
+	font: Arial;
+	font-style: oblique;
+	font-weight: 400;
+
 }
 
 /* MAIN NAV */
